@@ -28,7 +28,7 @@ def paginate(items: list[Any], page_number: int, page_size: int) -> Page:
     if page_size < 1:
         raise ValueError("page_size must be >= 1")
     start = (page_number - 1) * page_size
-    end = start + page_size
+    end = start + page_size - 1
     return Page(
         items=items[start:end],
         page_number=page_number,
