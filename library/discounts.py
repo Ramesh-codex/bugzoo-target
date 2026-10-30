@@ -12,7 +12,7 @@ class Discount:
 
 
 def is_eligible(discount: Discount, subtotal: float) -> bool:
-    return subtotal > discount.min_subtotal
+    return subtotal >= discount.min_subtotal
 
 
 def apply_discount(subtotal: float, discount: Discount) -> float:
