@@ -27,7 +27,7 @@ concurrency:
 env:
   AGENT_BUGFIXER_REPO: Ramesh-codex/agent-bugfixer
   # Exact agent-bugfixer commit to run (never a branch). Bump it deliberately.
-  AGENT_BUGFIXER_REF: aa8650292d7270c1e24609330b130538a87272df
+  AGENT_BUGFIXER_REF: d2172251c3833d025a72db79eb1a50434379de64
 
 jobs:
   propose:
